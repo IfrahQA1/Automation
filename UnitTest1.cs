@@ -41,6 +41,7 @@ namespace Automation
 
     public class Tests
     {
+        //Browser Driver
         IWebDriver webDriver = new ChromeDriver();
         references_paths rp = new references_paths();
         
@@ -58,8 +59,6 @@ namespace Automation
         public void Login()
         {
            
-            //Browser Driver
-
             //implicit wait
             webDriver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
 
